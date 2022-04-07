@@ -424,8 +424,21 @@ nav.navbar-white .fa-bars {
     color: #000;
 }
 
-
-.navbar-white .active::after{
+.navbar-white .active::after {
     background: #ff5361;
-    
+}
+
+.list-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-col {
+    flex-basis: 70%;
+}
+
+.right-col {
+    flex-basis: 70%;
 }
