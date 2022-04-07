@@ -552,8 +552,7 @@ nav.navbar-white .fa-bars {
     transform: rotate(180deg);
 }
 
-
-.paginaion span{
+.paginaion span {
     margin: 10px 8px;
     width: 40px;
     height: 40px;
@@ -561,10 +560,42 @@ nav.navbar-white .fa-bars {
     text-align: center;
     border-radius: 50%;
     cursor: pointer;
-
 }
 
-.paginaion .current{
+.paginaion .current {
     background: #333;
     color: #fff;
+}
+
+/* -------------------- Small screen for listing page -------------------- */
+
+@media only screen and (max-width: 700px) {
+    .list-container {
+        margin-top: 150px;
+    }
+    .left-col,
+    .right-col,
+    .house-img,
+    .house-info {
+        flex-basis: 100%;
+    }
+
+    .left-col h1 {
+        font-size: 22px;
+    }
+    .house-info h3 {
+        font-size: 18px;
+    }
+    .house-info i {
+        font-size: 16px;
+    }
+
+    .paginaion span {
+        margin: 10px 2px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+
+    }
 }
