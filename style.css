@@ -679,7 +679,7 @@ nav.navbar-white .fa-bars {
     display: block;
 }
 
- .check-form div {
+.check-form div {
     padding: 10px;
 }
 .check-form input {
@@ -687,7 +687,6 @@ nav.navbar-white .fa-bars {
     border: 0;
     outline: none;
 }
-
 
 .check-form button {
     background: #ff5361;
@@ -698,8 +697,27 @@ nav.navbar-white .fa-bars {
     width: 325px;
     border-radius: 8px;
     font-size: 16px;
-} 
+}
 
-.guest-field{
+.guest-field {
     flex: 1;
+}
+
+.details-list {
+    list-style: none;
+    margin: 50px 0;
+}
+
+.details-list li {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.details-list li span{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
 }
