@@ -67,10 +67,10 @@ nav {
     margin: 30px auto;
     padding: 6px 10px 6px 30px;
     border-radius: 50px;
-    top: 75%;
+    /* top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
-    position: absolute;
+    position: absolute; */
 }
 
 .search-bar form {
@@ -109,7 +109,7 @@ nav {
     font-weight: 600;
 }
 
-/* -------------------- exclusives -------------------- */
+/* -------------------- Exclusives -------------------- */
 
 .sub-title {
     margin: 50px 0 20px;
@@ -140,4 +140,18 @@ nav {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
+}
+
+/* -------------------- Trending places -------------------- */
+
+.trending {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.trending div img {
+    width: 100%;
+    border-radius: 10px;
 }
