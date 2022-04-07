@@ -752,5 +752,10 @@ nav.navbar-white .fa-bars {
 .map b{
     display: block;
     margin-bottom: 16px;
-    
+
+}
+
+.host img{
+    width: 114px;
+    border-radius: 5px;
 }
