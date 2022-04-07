@@ -348,7 +348,7 @@ nav .fa-bars {
 
     .header h1 {
         padding-top: 200px;
-        font-size: 7vw;
+        font-size: 5vw;
     }
 
     .search-bar {
@@ -392,5 +392,14 @@ nav .fa-bars {
         padding: 6px 15px;
         border-radius: 4px;
         margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .stories p {
+        font-size: 22px;
+    }
+
+    .about-msg {
+        font-size: 15px;
     }
 }
