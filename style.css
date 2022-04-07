@@ -674,3 +674,32 @@ nav.navbar-white .fa-bars {
     align-items: center;
     padding: 10px 50px;
 }
+
+.check-form label {
+    display: block;
+}
+
+ .check-form div {
+    padding: 10px;
+}
+.check-form input {
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+
+.check-form button {
+    background: #ff5361;
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 18px;
+    width: 325px;
+    border-radius: 8px;
+    font-size: 16px;
+} 
+
+.guest-field{
+    flex: 1;
+}
