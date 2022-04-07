@@ -319,7 +319,7 @@ nav .fa-bars {
         overflow: hidden;
         transition: max-height 0.5s;
     }
-
+    
     nav .nav-links li {
         margin: 10px 0;
         display: block;
@@ -345,7 +345,7 @@ nav .fa-bars {
     .hidemenu {
         max-height: 300px;
     }
-
+    
     .header h1 {
         padding-top: 200px;
         font-size: 5vw;
@@ -394,7 +394,7 @@ nav .fa-bars {
         margin-top: 10px;
         font-size: 14px;
     }
-
+    
     .stories p {
         font-size: 22px;
     }
@@ -403,3 +403,6 @@ nav .fa-bars {
         font-size: 15px;
     }
 }
+
+/* -------------------- Listing Page -------------------- */
+
