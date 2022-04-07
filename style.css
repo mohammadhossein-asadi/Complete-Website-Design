@@ -155,3 +155,10 @@ nav {
     width: 100%;
     border-radius: 10px;
 }
+
+.trending h3 {
+    font-weight: 600px;
+    margin-top: 10px;
+}
+
+
