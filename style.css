@@ -92,13 +92,11 @@ nav {
     cursor: pointer;
 }
 
-
-.search-bar form button img{
+.search-bar form button img {
     width: 15px;
     margin-top: 7px;
-
 }
 
-.location-input{
-  flex: 1; 
+.location-input {
+    flex: 1;
 }
