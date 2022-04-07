@@ -67,6 +67,10 @@ nav {
     margin: 30px auto;
     padding: 6px 10px 6px 30px;
     border-radius: 50px;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
 
 .search-bar form {
@@ -99,4 +103,8 @@ nav {
 
 .location-input {
     flex: 1;
+}
+
+.search-bar form label {
+    font-weight: 600;
 }
