@@ -274,6 +274,22 @@ nav {
     margin: 20px 0;
 }
 
-.footer p{
+.footer p {
     padding-bottom: 15px;
+}
+
+.active {
+    position: relative;
+}
+
+.active::after {
+    content: "";
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -12px;
+    border-radius: 2px;
 }
